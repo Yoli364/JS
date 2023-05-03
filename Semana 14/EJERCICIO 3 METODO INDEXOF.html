@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METODO INDEX OF</title>
+</head>
+<body>
+    <center>
+        <h1>METODO INDEXC OF</h1>
+        <h3>BUSQUEDA DE ELEMTOS EN ARRAY</h3>
+        <br><br>
+        <p>estudiante se encuentra en el indice N0.</p>
+        <p id="std"></p>
+        <script>
+            //creacion
+            let num;
+            let std=new Array();
+            //captura arrays
+            num=parseInt(prompt("Ingrese cantaida de stds a guardar a arrays"));
+            for (i=0;i<num;i++){
+                std[i]=prompt("ingrese nombre std a guardar.."+i);
+            }
+            //busqueda 
+            let datop=prompt("ingrese dato STD a buscar ");
+            let find=std.indexOf(datob.trim());
+            //evaluar si se encontro dato en array
+            //El resultado del método indexOf es: 0 es encontrado y -1 no encontrado
+            if (find>-1){
+                document.getElementById("std").innerHTML=find +"..."+ datob;
+            }else{
+                document.getElementById("std").innerHTML="ERROR..Nombre Estudiante no fue encontrado..."+ datop;
+            }
+        </script>
+    </center>
+    
+</body>
+</html>
