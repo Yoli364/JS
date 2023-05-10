@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+h1,h2{
+    color:black;
+}
+form{
+    border-style: solid;
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+}
+#boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    }
+button{
+    background-color: gray;
+    border-radius: 30px;
+    width:150px;
+    height:100px;
+    font-weight:bold;
+}
+p{
+    font-size: 20px;
+}
